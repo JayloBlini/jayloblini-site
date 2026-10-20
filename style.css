@@ -65,6 +65,7 @@ footer{border-top:1px solid var(--line)}
 .reset-customize{display:flex;align-items:center;gap:8px;width:100%;border:1px solid var(--line);border-radius:6px;background:var(--soft);color:var(--text);padding:10px;margin-top:15px;font:600 10px 'DM Sans',sans-serif;cursor:pointer}
 .reset-customize:hover{border-color:var(--green)}
 .site-font *{font-family:var(--site-font)!important}
+.pixel-text *{font-family:'Silkscreen',sans-serif!important}
 .custom-text-color :is(h1,h2,h3,h4,p,a,span,b,strong,small,time,label,button,output,li,summary,figcaption){color:var(--site-text)!important}
 .custom-text-color .primary,.custom-text-color .send-button{color:var(--paper)!important}
 @media(max-width:650px){.customize-toggle{font-size:0;padding:8px 10px}.customize-toggle>span{font-size:17px}.customize-panel{top:74px;right:12px}.top-actions{gap:7px}}
@@ -144,3 +145,4 @@ body.dark .theme-toggle:hover{background:#454239;border-color:#8e7a53}
 .community-section{background:linear-gradient(180deg,var(--soft),color-mix(in srgb,var(--soft) 70%,var(--paper)))}
 .community-footnote{padding-top:6px}
 @media(max-width:650px){.channel-stats{gap:11px;padding:12px 11px;width:100%;justify-content:space-between}.channel-stats>div{gap:4px}.channel-stats strong{font-size:15px}.channel-stats span{font-size:8px}.channel-stats>i{height:16px}}
+
